@@ -18,7 +18,7 @@ CPMAddPackage(
         GITHUB_REPOSITORY ximtech/DWTDelay
         GIT_TAG origin/main)
 
-target_link_libraries(${PROJECT_NAME} DWTDelay)
+target_link_libraries(${PROJECT_NAME} DWT_Delay)
 ```
 ```cmake
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
